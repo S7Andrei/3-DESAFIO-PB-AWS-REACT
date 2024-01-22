@@ -1,7 +1,8 @@
 @font-face {
-    font-family: "Inter";
-    src: url("path/to/inter.woff2") format("woff2");
+    font-family: "Roboto";
+    src: url("path/to/roboto.woff2") format("woff2");
   }
+  
 
 
 body {
@@ -16,4 +17,9 @@ body {
     --1-Background: #242424;
     --2-Background: #282828;
     --3-Background: #383838;
+
+    /* SET FONTS */
+
+    --Roboto: "Roboo", serif;
+    
 }
