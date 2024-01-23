@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../components/Header/header.module.css';  // Importe as classes do arquivo CSS como um objeto
+import styles from '../../components/Header/header.module.css';  
 
 import logo from '../../src/assets/header/Logo.svg';
 import user from '../../src/assets/header/user-avatar.svg';
