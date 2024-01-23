@@ -12,7 +12,7 @@ const Header = () => {
 
       <nav className={styles.NavBar}>  
 
-        <div className={styles.arro}>
+        <div className={styles.headerContainer}>
 
         <div className={styles.logo}>  
         <a href="#">
