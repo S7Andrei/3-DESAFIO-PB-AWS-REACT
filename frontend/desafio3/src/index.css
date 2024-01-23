@@ -20,6 +20,7 @@
 
     /* THIRD */
     --gray: #B3B3B3;
+    --drk-gray: #9D9D9D;
 
     /* SETFONT */
     
@@ -41,4 +42,7 @@
 
 body {
     background-color: var(--1-Background);
+
+    height: 100vh;
+    width: 100%;
 }

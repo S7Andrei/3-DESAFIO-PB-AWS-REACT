@@ -1,0 +1,92 @@
+.ridesTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 8vh;
+    line-height: 5.3vh;
+}
+
+.yTitle {
+    font-size: var(--26-fontsize);
+    font-family: var(--roboto);
+    color: var(--yellow);
+    text-align: center;    
+    font-weight: 400;
+}
+
+.wTitle {
+    font-size: var(--45-fontsize);
+    font-family: var(--roboto);
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+
+    font-family: var(--roboto);
+    font-size: var(--16-fontsize);
+    
+}
+
+.icon {
+    width: 307px;
+    height: 214px;
+}
+
+.titlecard {
+    color: var(--white);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    max-height: 320px;
+    margin-left: 32px;
+    padding: 0 0 80px;
+
+    background-color: var(--3-Background);
+    border-radius: 5px;
+
+}
+
+.txtCard{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+
+    line-height: 24px;
+}
+
+.titleCard {
+    color: var(--white);
+    margin-bottom: 1vh;
+}
+
+.descCard {
+    color: var(--gray);
+}
+
+
+.btnLearn {
+    font-size: var(--14-fontsize);
+    font-family: var(--roboto);
+    font-weight: bold;
+    width: 6vw;
+
+    color: var(--yellow);
+    background-color: var(--3-Background);
+    border: none;
+
+    cursor: pointer;
+    
+    padding: 0 0 0 10vw;
+    white-space: nowrap;
+    
+}
