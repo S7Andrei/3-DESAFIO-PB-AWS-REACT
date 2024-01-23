@@ -1,0 +1,29 @@
+  .arro {
+    display: flex;
+    padding: 2vh;
+    align-items: center;
+    
+    justify-content: center;
+    gap: 65vh;
+  }
+  
+ .nav-links {
+    display: flex;
+    gap: 5vh;
+    white-space: nowrap;
+    font-family: var(--roboto);
+    font-size: var(--16-fontsize);
+    
+    color: var(--white);
+ }
+    
+  .user-section {
+    display: flex;
+    gap: 2vh;
+    font-family: var(--roboto);
+    font-size: var(--16-fontsize);
+  }
+
+  .target {
+    color: var(--yellow);
+  }

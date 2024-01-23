@@ -4,13 +4,7 @@
   }
   
 
-
-body {
-    background-color: var(--1-Background);
-
-}
-
-:root {
+  :root {
 
     /* PALLET COLORS */
 
@@ -18,8 +12,33 @@ body {
     --2-Background: #282828;
     --3-Background: #383838;
 
-    /* SET FONTS */
+    /* PRIMARY */
+    --white: #FFFFFF;
 
-    --Roboto: "Roboo", serif;
+    /* SECONDARY */
+    --yellow: #FBA403;
+
+    /* THIRD */
+    --gray: #B3B3B3;
+
+    /* SETFONT */
     
+    --roboto: "Roboto", sans-serif;
+    
+    /* FONTSIZE */
+
+    --12-fontsize: 12px;
+    --14-fontsize: 14px;
+    --16-fontsize: 16px;
+    --20-fontsize: 20px;
+    --24-fontsize: 24px;
+    --26-fontsize: 26px;
+    --27-fontsize: 27px;
+    --45-fontsize: 45px;
+    --50-fontsize: 50px;
+    --71-fontsize: 71px;
+}
+
+body {
+    background-color: var(--1-Background);
 }
