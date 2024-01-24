@@ -77,7 +77,6 @@
 .btnLearn {
     font-size: var(--14-fontsize);
     font-family: var(--roboto);
-    font-weight: bold;
     width: 6vw;
 
     color: var(--yellow);
