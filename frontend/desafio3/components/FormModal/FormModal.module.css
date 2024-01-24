@@ -1,0 +1,9 @@
+.form-group {
+    color: aliceblue;
+    font-weight: bolde;
+    background-color: rgb(17, 79, 133);
+}
+
+.error {
+    color: red;
+}

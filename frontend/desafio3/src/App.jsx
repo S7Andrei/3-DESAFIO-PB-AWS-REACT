@@ -5,6 +5,7 @@ import Header from '../components/Header/header';
 import Footer from '../components/Footer/footer';
 import Cards from '../components/CardModal/Cards';
 import CarModal from '../components/CarModal/CarModal';
+import FormModal from '../components/FormModal/FormModal.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <CarModal />
       <Cards />
+      <FormModal />
       <Footer />
     </>
   )
