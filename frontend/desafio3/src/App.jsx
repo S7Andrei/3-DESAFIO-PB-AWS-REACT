@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
-import Header from '../components/Header/header'
-import Footer from '../components/Footer/footer'
-import Cards from '../components/CardModal/Cards'
+import Header from '../components/Header/header';
+import Footer from '../components/Footer/footer';
+import Cards from '../components/CardModal/Cards';
+import CarModal from '../components/CarModal/CarModal';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <CarModal />
       <Cards />
       <Footer />
     </>
