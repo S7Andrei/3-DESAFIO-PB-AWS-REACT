@@ -1,9 +1,103 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color: var(--2-Background);
+    border-radius: 10px;
+
+    margin-left: 306px;
+    margin-top: 10vh;
+    padding: 25px ;
+
+    width: 132vh;
+    height: 78vh;
+    
+    gap: 25px;
+}
+
+input {
+    padding: 15px;
+}
+
 .form-group {
     color: aliceblue;
-    font-weight: bolde;
+    font-weight: bold;
     background-color: rgb(17, 79, 133);
 }
 
 .error {
     color: red;
+}
+
+.stylebox {
+    width: 127.8vh;
+    height: 2.2vh;   
+    border-radius: 4.5px;
+    border: white 1px solid;
+    background: none;
+    color: white;
+}
+
+.stylebox::placeholder {
+    font-size: var(--16-fontsize);
+    font-family: var(--roboto);
+  }
+
+.stylebox:hover {
+    border: 1px solid var(--yellow); 
+  }
+
+.stylebox:focus {
+    color: var(--yellow);
+    border: 4.5px solid var(--yellow);
+  }
+
+.submit {
+    width: 20vh;
+    height: 6vh;
+    border-radius: 8px;
+    border: none;
+
+    font-family: var(--roboto);
+    font-size: var(--14-fontsize);
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--yellow);
+
+    cursor: pointer;
+}
+
+.submit:focus {
+    width: 20.2vh;
+    height: 6.2vh;
+}
+
+.PopupContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 18px;
+}
+
+.textFormContainer {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.titleDrive {
+    font-size: var(--27-fontsize);
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--yellow);
+}
+
+.descDrive {
+    font-size: var(--16-fontsize);
+    font-family: var(--roboto);
+    font-weight: 400;
+    color: var(--white);
 }
