@@ -11,7 +11,7 @@ form {
     padding: 25px ;
 
     width: 132vh;
-    height: 78vh;
+    height: 90vh;
     
     gap: 25px;
 }
@@ -31,9 +31,9 @@ input {
 }
 
 .stylebox {
-    width: 127.8vh;
+    width: 128.8vh;
     height: 2.2vh;   
-    border-radius: 4.5px;
+    border-radius: 4px;
     border: white 1px solid;
     background: none;
     color: white;

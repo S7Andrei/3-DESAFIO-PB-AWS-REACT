@@ -1,32 +1,35 @@
 import * as React from 'react';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
+ import TextField from '@mui/material/TextField';
 
 import styles from './FormModal.module.css';
-import { red } from '@mui/material/colors';
+
 import * as S from './styles'
+import { Autocomplete } from '@mui/material';
 
 
-export default function InputMUI({error}) {
+
+export default function InputMUI({error,id, options,onChange, label, name, control, ...props}) {
+
+
 
   return (
     <>
     <S.StyledAutoComplete
+      {...props}
       disablePortal
       error
-      sx={{ width: 1265 }}
-      id="combo-box-demo"
-      options={top100Films}
-      renderInput={(params) => <TextField {...params} label="Country" />}
-    />
-    {
-      error && 
-      <span  className={styles.error}>{error}</span>}
+   onChange={(e, value) =>onChange(value.label)}
+      id={id}
+      options={options}
+      getOptionLabel={(option)=> option.label}
+      renderInput={(params) => <TextField {...params} label={label}  /> } 
+   />
+   {
+     error && 
+     <span  className={styles.error}>{error}</span>}
+   
     </>
+    
   );
 }
 
-const top100Films = [
-  { label: 'The Shawshank Redemption', year: 1994 },
-  { label: 'The Godfather', year: 1972 },
-];
