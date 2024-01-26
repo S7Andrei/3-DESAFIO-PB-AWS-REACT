@@ -1,7 +1,6 @@
 import * as React from "react";
 import { alpha, styled } from "@mui/material/styles";
 import Switch from "@mui/material/Switch";
-import SelectCarType from "./UI/SelectCarType";
 
 const YellowSwitch = styled(Switch)(({ theme }) => ({
   "& .MuiSwitch-switchBase.Mui-checked": {
@@ -32,7 +31,7 @@ export default function ColorSwitches() {
       </div>
       {isSwitchOn && (
         <div>
-          <SelectCarType />
+          <GroupRadio />
         </div>
       )}
     </div>

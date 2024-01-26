@@ -4,13 +4,11 @@ import * as React from 'react';
 import styles from './FormModal.module.css';
 
 import * as S from './styles'
-import { Autocomplete } from '@mui/material';
+import { Autocomplete, Switch, styled } from '@mui/material';
 
 
 
 export default function InputMUI({error,id, options,onChange, label, name, control, ...props}) {
-
-
 
   return (
     <>

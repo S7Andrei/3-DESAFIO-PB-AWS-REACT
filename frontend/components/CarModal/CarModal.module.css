@@ -1,0 +1,56 @@
+.RideModal {
+    display: flex;
+    padding: 20px;
+}
+
+.Need {
+    font-size: var(--26-fontsize);
+    font-family: Roboto;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.myRIDE {
+    font-size: var(--50-fontsize);
+    font-family: Roboto;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.fontStyle {
+    font-size: var(--50-fontsize);
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.changeColor {
+    color: var(--yellow);
+    letter-spacing: -0.25px;
+}
+
+.Direction {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    margin-top: 3.8vh;
+}
+
+.BackgroundFormStyle {
+    position: absolute;
+    width: 80vh;
+    height: 25vh;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 68vh;
+    margin-top: 20vh;
+}
+
+.findStyle {
+    font-size: var(--24-fontsize);
+    font-family: Roboto;
+    font-weight: bold;
+    color: var(--white);
+}

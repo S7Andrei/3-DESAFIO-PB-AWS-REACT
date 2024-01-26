@@ -29,7 +29,7 @@ const Cards = () => {
 
         <section className={styles.card}>
             <div className={styles.icon}>
-            <img src={card} />
+            <img src={card} alt='Basic Car' />
             </div>
             <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Basic</h3>
@@ -39,7 +39,7 @@ const Cards = () => {
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card1} />
+            <img src={card1} alt='Basic Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Comfort</h3>
@@ -49,7 +49,7 @@ const Cards = () => {
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card2} />
+            <img src={card2} alt='Basic Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Business</h3>
@@ -59,7 +59,7 @@ const Cards = () => {
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card3} />
+            <img src={card3} alt='Basic Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Deluxe</h3>

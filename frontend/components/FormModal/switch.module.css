@@ -1,12 +1,7 @@
-.test {
-    color: white;
-}
-
 .switchContainer {
     color: aliceblue;
 }
 
 .ColorSwitchesT {
     display: flex;
-    flex-direction: row;
 }
