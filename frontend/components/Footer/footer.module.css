@@ -23,6 +23,9 @@
 .footerContainer {
     display: flex;
     align-items: center;
+
+    margin-top: 8vh;
+    padding: 3vh;
  
 }
 
@@ -31,7 +34,7 @@
     flex-direction: column;
     gap: 2vh;
 
-    padding: 80px 40px 40px 80px;
+    padding: 20px 40px 40px 80px;
     margin-right: 5vw;
 }
 
@@ -43,13 +46,13 @@
 .aboutInfContainer {
     display: flex;
     gap: 12vh;
-    padding-top: 6vh;
+    padding-top: 1vh;
 }
 
 .footerList {
     display: flex;
     flex-direction: column;
-    gap: 1.8vh;   
+    gap: 1.5vh;   
 }
 
 
