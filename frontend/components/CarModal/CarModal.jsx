@@ -9,7 +9,7 @@ const CarModal = () => {
      <>
         <div className={styles.RideModal}>
               
-          <img src={Ride} alt="LayoutCar" /> 
+          <img src={Ride} alt="LayoutCar"  className={styles.CarPNG}/> 
           <div className={styles.Direction}>
             <h3 className={styles.Need}>NEED A RIDE?</h3>
             <h1 className={styles.myRIDE}>Book with <i className={styles.changeColor}><i className={styles.fontStyle}>my</i>RIDE</i> now!</h1>

@@ -1,0 +1,30 @@
+.sucessBackground {
+    background-color: var(--2-Background);
+
+    width: 13,24vh;
+    height: 53vh;
+}
+
+.formatText {
+    align-items: center;
+    padding: 50vh;
+    margin-bottom: 40vh;
+}
+
+.welcomeTitle {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-weight: bold;
+    white-space: nowrap;
+
+    color: white;
+}
+
+.Checked {
+    margin-right: 2vh;
+}
+
+.alignIcon {
+    display: flex;
+}
