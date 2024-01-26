@@ -41,31 +41,65 @@ const SucessForm = () => {
 
         <div className={styles.formatText}>
 
-            <p className={styles.welcomeTitle}>
+            <h1 className={styles.welcomeTitle}>
               <div className={styles.alignIcon}>
               <img className={styles.Checked} src={checkIcon} alt="Checked Icon" />
              Welcome, {data.name.split(" ")[0]}!
               </div>
-            </p>
+            </h1>
+      
+      <div className={styles.espaco}>
+        
+      <div className={styles.line}></div>
 
+          <div className={styles.classItens}>
+            <p className={styles.infoTitle}>
+              Email:
+            </p>
             <p>
               {data.email}
             </p>
+          </div>
 
+      <div className={styles.line}></div>
+
+        <div className={styles.classItens}>
+        <p className={styles.infoTitle}>
+              Country:
+            </p>
             <p>
               {data.country}
             </p>
-
+        </div>
+      <div className={styles.line}></div>
+        
+        <div className={styles.classItens}>
+        <p className={styles.infoTitle}>
+              City:
+            </p>
             <p>
               {data.city}
             </p>
+        </div>
 
+      <div className={styles.line}></div>  
+
+        <div className={styles.classItens}>
+        <p className={styles.infoTitle}>
+        Referral Code:
+            </p>
             <p>
               {data.code}
             </p>
-
         </div>
 
+      <div className={styles.line}></div>
+
+            <p>
+              {data.switchY}
+            </p>
+            </div>
+      </div>
 
       </form>
 

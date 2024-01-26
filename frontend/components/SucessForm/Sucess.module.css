@@ -1,6 +1,5 @@
 .sucessBackground {
     background-color: var(--2-Background);
-
     width: 13,24vh;
     height: 53vh;
 }
@@ -8,7 +7,8 @@
 .formatText {
     align-items: center;
     padding: 50vh;
-    margin-bottom: 40vh;
+    margin-bottom: 1vh;
+
 }
 
 .welcomeTitle {
@@ -17,8 +17,8 @@
     font-family: Roboto;
     font-weight: bold;
     white-space: nowrap;
-
     color: white;
+    margin-bottom: 10vh;
 }
 
 .Checked {
@@ -28,3 +28,32 @@
 .alignIcon {
     display: flex;
 }
+
+.espaco {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 4vh;
+
+    font-family: Roboto;
+    font-size: var(--26-fontsize);
+    color: white;   
+}
+
+.line {
+    width: 40vh;
+    height: 2px;
+    background-color: rgb(31, 29, 29); 
+  }
+
+  .classItens {
+    display: flex;
+  }
+
+  .infoTitle {
+    display: flex;
+    margin-right: 2vh;
+    font-size: var(--27-fontsize);
+    font-weight: bold;
+  }
