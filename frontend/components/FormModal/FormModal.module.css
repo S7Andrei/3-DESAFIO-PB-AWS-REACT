@@ -108,5 +108,12 @@ input {
 }
 
 [data-custom="CodeBottom"] {
-    margin-bottom: -2.5vh;
+   
+}
+
+.error {
+    padding: 2vh;
+    font-family: Roboto;
+    font-size: var(--16-fontsize);
+    font-weight: 400;
 }
