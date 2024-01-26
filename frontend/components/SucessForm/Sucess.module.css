@@ -1,7 +1,7 @@
 .sucessBackground {
     background-color: var(--2-Background);
     width: 13,24vh;
-    height: 53vh;
+    height: 58vh;
 }
 
 .formatText {
@@ -18,7 +18,8 @@
     font-weight: bold;
     white-space: nowrap;
     color: white;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .Checked {
@@ -42,7 +43,7 @@
 }
 
 .line {
-    width: 40vh;
+    width: 46vh;
     height: 2px;
     background-color: rgb(31, 29, 29); 
   }
@@ -53,6 +54,8 @@
 
   .infoTitle {
     display: flex;
+    flex-direction: row;
+    white-space: nowrap;
     margin-right: 2vh;
     font-size: var(--27-fontsize);
     font-weight: bold;

@@ -52,6 +52,17 @@ const SucessForm = () => {
         
       <div className={styles.line}></div>
 
+      <div className={styles.classItens}>
+        <p className={styles.infoTitle}>
+          Full Name:
+        </p>
+        <p>
+          {data.name}
+        </p>
+      </div>
+
+      <div className={styles.line}></div>
+
           <div className={styles.classItens}>
             <p className={styles.infoTitle}>
               Email:
