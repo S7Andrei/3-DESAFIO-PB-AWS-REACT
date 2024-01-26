@@ -7,6 +7,10 @@ import card2 from '../../src/assets/CardModal/card2.png';
 import card3 from '../../src/assets/CardModal/card3.png';
 
 const Cards = () => {
+    const handleLearnMoreClick = (carType) => {
+        const searchQuery = encodeURIComponent(`${carType} car`);
+        window.open(`https://www.google.com/search?q=${searchQuery}`, '_blank');
+      };
   return (
     <>
 
@@ -35,38 +39,38 @@ const Cards = () => {
             <h3 className={styles.titleCard}>Basic</h3>
             <span className={styles.descCard}>The best balance of price and comfort.<br/>You will not go wrong with our basic<br/>rides.</span>
             </div>
-            <button className={styles.btnLearn}>LEARN MORE</button>
+            <button className={styles.btnLearn}  onClick={() => handleLearnMoreClick('basic')}>LEARN MORE</button>
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card1} alt='Basic Car'/>
+            <img src={card1} alt='Comfort Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Comfort</h3>
             <span className={styles.descCard}>If comfort is your priority, this is the<br/> ride for you. It’s spacious and packed<br/>with features.</span>
         </div>
-            <button className={styles.btnLearn}>LEARN MORE</button>
+            <button className={styles.btnLearn} onClick={() => handleLearnMoreClick('Comfort')}>LEARN MORE</button>
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card2} alt='Basic Car'/>
+            <img src={card2} alt='Business Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Business</h3>
             <span className={styles.descCard}>Do you want to travel around the city in<br/>style? Make sure to select or business<br/>class rides.</span>
         </div>
-            <button className={styles.btnLearn}>LEARN MORE</button>
+            <button className={styles.btnLearn} onClick={() => handleLearnMoreClick('Business')}>LEARN MORE</button>
         </section>
         <section className={styles.card}>
         <div className={styles.icon}>
-            <img src={card3} alt='Basic Car'/>
+            <img src={card3} alt='Deluxe Car'/>
         </div>
         <div className={styles.txtCard}>
             <h3 className={styles.titleCard}>Deluxe</h3>
             <span className={styles.descCard}>The best ride for luxury and comfort.<br/>No compromises here. You’ll surely get<br/>what you pay for.</span>
         </div>
         <a id="learnMoreBtn">
-            <button className={styles.btnLearn}>LEARN MORE</button>
+            <button className={styles.btnLearn} onClick={() => handleLearnMoreClick('Deluxe')}>LEARN MORE</button>
         </a>
         </section>
     
