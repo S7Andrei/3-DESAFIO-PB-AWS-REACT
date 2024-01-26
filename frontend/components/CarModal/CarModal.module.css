@@ -40,10 +40,10 @@
 
 .BackgroundFormStyle {
     position: absolute;
-    margin-top: 22vh;
+    margin-top: 20vh;
     margin-left: 72vh;
     width: 55vh;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
 }
@@ -82,7 +82,7 @@
     height: 6.2vh;
 }
 
-.test {
+.SearchIcon {
     display: flex;
     margin-top: 0.5vh;
     margin-left: 20vh;
