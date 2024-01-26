@@ -106,3 +106,7 @@ input {
     display: flex;
     flex-direction: row;
 }
+
+[data-custom="CodeBottom"] {
+    margin-bottom: -2.5vh;
+}

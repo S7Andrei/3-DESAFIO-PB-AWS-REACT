@@ -180,6 +180,7 @@ const FormModal = () => {
                 error={errors?.country?.message}
                 id="city"
                 label="city"
+                data-custom="CodeBottom"
               />
             )}
           />

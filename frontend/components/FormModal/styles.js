@@ -20,7 +20,6 @@ export const StyledAutoComplete = styled(Autocomplete)`
         border-color: white !important;
     }
 
-
     .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
         border-color: #FBA403 !important;
     }
@@ -34,8 +33,12 @@ export const StyledAutoComplete = styled(Autocomplete)`
    }
 
    .MuiInputLabel-shrink{
-        color:#FBA403 !important;
+        color: white !important;
    }
+
+   .Mui-focused {
+        color: #FBA403!important;
+    }
 
    .error-outline {
     border-color: red !important;
